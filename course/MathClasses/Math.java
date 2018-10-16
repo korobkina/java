@@ -4,10 +4,13 @@ public class Math {
         for (int i = 1; i < number + 1; i++){
             factorial *= i;
         }
-        System.out.println("Факториал числа " +number+" = "+factorial);
+        System.out.println("Факториал числа "+number+" = "+factorial);
     }
     public int calculateFactorialSecond (int n){
         int factorial;
+        if (n == 0) {
+            return 1;
+        }
         if (n == 1) {
             return 1;
         }
@@ -15,4 +18,3 @@ public class Math {
         return factorial;
     }
 }
-
