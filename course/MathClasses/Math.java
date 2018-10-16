@@ -1,10 +1,10 @@
 public class Math {
-    public void calculateFactorialFirst (int number){
+    public int calculateFactorialFirst (int number){
         int factorial = 1;
         for (int i = 1; i < number + 1; i++){
             factorial *= i;
         }
-        System.out.println("Факториал числа "+number+" = "+factorial);
+        return factorial;
     }
     public int calculateFactorialSecond (int n){
         int factorial;
@@ -18,3 +18,5 @@ public class Math {
         return factorial;
     }
 }
+
+
