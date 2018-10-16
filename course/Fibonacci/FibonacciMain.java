@@ -7,5 +7,6 @@ public class FibonacciMain {
         System.out.println("Введите номер желаемого числа Фибоначчи:");
         int number = in.nextInt();
         taskFibonacci.calculateFibonacci(number);
+        System.out.println(number+" число Фибоначчи – это "+taskFibonacci.calculateFibonacci(number));
     }
 }
