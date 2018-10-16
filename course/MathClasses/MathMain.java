@@ -9,6 +9,7 @@ public class MathMain {
         if (number >= 0){
             taskFactorial.calculateFactorialFirst(number);
             taskFactorial.calculateFactorialSecond(number);
+            System.out.println("Факториал числа " +number+" = "+taskFactorial.calculateFactorialSecond(number));
             System.out.println("Факториал НОМЕР ДВА числа " +number+" = "+taskFactorial.calculateFactorialSecond(number));
         }
         else {
