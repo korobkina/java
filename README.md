@@ -1,2 +1,2 @@
 # java
-mipt java course
+java course
